@@ -28,12 +28,12 @@
    cmake ../
    
    make
-   # Install
+   
    sudo make install
    
-Schritt 3: 
+## Schritt 3: 
     
-    Kerneltreiber deaktivieren( Datei wird während angelegt )
+   #### Kerneltreiber deaktivieren( Datei wird während angelegt )
     
     /etc/modprobe.d/rtlsdr.conf
     

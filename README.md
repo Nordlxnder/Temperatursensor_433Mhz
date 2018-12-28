@@ -24,11 +24,8 @@
     cd rtl_433/
     mkdir build
     cd build/
-    
     cmake ../
-    
     make
-    
     sudo make install
    
 ## Schritt 3: 
@@ -42,9 +39,9 @@
             blacklist rtl2832
             blacklist dvb_usb_rtl28xxu
 
-    Neustart des Raspberrys
+   #### Neustart des Raspberrys
     
-        sudo reboot
+    sudo reboot
         
 ## Schritt 4:
 

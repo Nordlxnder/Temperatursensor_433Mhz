@@ -45,7 +45,7 @@
         
 ## Schritt 4:
 
-   #### Start des Programm und auf Sender warten(dies kann einige Minuten dauern)
+   #### Start des Programm und auf Sender warten(dies kann einige Minuten dauern ;)
     
     rtl_433 -G 
 
@@ -54,4 +54,4 @@
    #### Serverstarten ip -p port
    
     sudo rtl_tcp -a 192.168.xxx.xxx -p 1337
-  
+  :+1:

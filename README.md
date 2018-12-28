@@ -3,10 +3,10 @@
 
 ## Hardware:
     Raspberry 3 B+
-       USB Stick mit RTL2838 DVB-T
+    USB Stick mit RTL2838 DVB-T
          
 ## Software: 
-       OS Arch Linux mit Kernel 4.14.90-1-ARCH
+    OS Arch Linux mit Kernel 4.14.90-1-ARCH
        
        
        
@@ -18,18 +18,18 @@
     
 ## Schritt 2:
    
-   Treiber installieren
+    Treiber installieren
    
-   git clone https://github.com/merbanan/rtl_433.git
-   cd rtl_433/
-   mkdir build
-   cd build/
-   
-   cmake ../
-   
-   make
-   
-   sudo make install
+    git clone https://github.com/merbanan/rtl_433.git
+    cd rtl_433/
+    mkdir build
+    cd build/
+    
+    cmake ../
+    
+    make
+    
+    sudo make install
    
 ## Schritt 3: 
     

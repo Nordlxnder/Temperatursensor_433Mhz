@@ -54,4 +54,5 @@
    #### Serverstarten ip -p port
    
     sudo rtl_tcp -a 192.168.xxx.xxx -p 1337
-  :+1:
+  
+  :earth_africa:

@@ -12,13 +12,13 @@
        
 ## Schritt 1:
 
-    #### Installation der Pakete um den Teiber zu kompilieren
+   #### Installation der Pakete um den Teiber zu kompilieren
     
     sudo pacman -S cmake community/rtl-sdr
     
 ## Schritt 2:
    
-    #### Treiber installieren
+   #### Treiber installieren
    
     git clone https://github.com/merbanan/rtl_433.git
     cd rtl_433/
@@ -48,6 +48,6 @@
         
 ## Schritt 4:
 
-    #### Start des Programm und auf Sender warten(dies kann einige Minuten dauern)
+   #### Start des Programm und auf Sender warten(dies kann einige Minuten dauern)
     
     rtl_433 -G 

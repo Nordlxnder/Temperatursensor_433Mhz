@@ -48,3 +48,10 @@
    #### Start des Programm und auf Sender warten(dies kann einige Minuten dauern)
     
     rtl_433 -G 
+
+## Schritt 5: 
+   #### Falls man von einem PC auf den Raspberry zugreifen möchte
+   #### Serverstarten ip -p port
+   
+    sudo rtl_tcp -a 192.168.xxx.xxx -p 1337
+  

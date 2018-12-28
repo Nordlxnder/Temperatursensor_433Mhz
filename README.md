@@ -2,7 +2,7 @@
 
 
 ## Hardware:
-       Raspberry 3 B+
+    Raspberry 3 B+
        USB Stick mit RTL2838 DVB-T
          
 ## Software: 
@@ -20,8 +20,8 @@
    
    Treiber installieren
    
-   > git clone https://github.com/merbanan/rtl_433.git
-   > cd rtl_433/
+   git clone https://github.com/merbanan/rtl_433.git
+   cd rtl_433/
    mkdir build
    cd build/
    
@@ -46,7 +46,7 @@
     
         sudo reboot
         
-Schritt 4:
+## Schritt 4:
 
     Start des Programm und auf Sender warten(dies kann einige Minuten dauern)
     

@@ -1,32 +1,32 @@
-# Beschreibung um Temperatursensoren auszulesen die über die Frequenz 433 MHz senden 
+# Temperatursensoren auszulesen die über die Frequenz 433 MHz senden 
 
 
-Hardware:
+## Hardware:
        Raspberry 3 B+
        USB Stick mit RTL2838 DVB-T
          
-Software: 
+## Software: 
        OS Arch Linux mit Kernel 4.14.90-1-ARCH
        
        
        
-Schritt 1:
+## Schritt 1:
 
     Installation der Pakete um den Teiber zu kompilieren
     
     sudo pacman -S cmake community/rtl-sdr
     
-Schritt 2:
+## Schritt 2:
    
    Treiber installieren
    
-   git clone https://github.com/merbanan/rtl_433.git
-   cd rtl_433/
+   > git clone https://github.com/merbanan/rtl_433.git
+   > cd rtl_433/
    mkdir build
    cd build/
-   # Compile starten
+   
    cmake ../
-   # Make
+   
    make
    # Install
    sudo make install

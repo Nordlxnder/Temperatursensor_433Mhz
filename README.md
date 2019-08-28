@@ -48,6 +48,11 @@
    #### Start des Programm und auf Sender warten(dies kann einige Minuten dauern ;)
     
     rtl_433 -G 
+    
+    Für Oregon Scientific Weather Sensor Oregon  Wettersensor
+    
+    rtl_433 -f 433922000 -R 12 -F csv:wetterdaten.txt
+
 
 ## Schritt 5: 
    #### Falls man von einem PC auf den Raspberry zugreifen möchte
